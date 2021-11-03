@@ -1,0 +1,326 @@
+.referal_overview{
+    h2{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        color: #3D663D;
+    }
+}
+.referal_container{
+    // background-color:whitesmoke;
+    .referal_header{
+        padding: 0;
+        margin: 0;
+        height: 192px;
+        background: linear-gradient(90deg, #19A186 11.22%, #F2CF43 100%);
+        h3{
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+            color: #FFFFFF;
+            width: 566px;
+            height: 58px;
+            left: 159px;
+            top: 67px;
+            position: relative;
+        }
+        p{
+            left: 159px;
+            top: 133px;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            position: absolute;
+        }
+    }
+
+    .referal_body{
+        .referal_overview_container{
+            .referal_pension{
+                p{
+                    background: #F7F7F7;
+                    border-radius: 8px;
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 132.02%;
+                    color: #8B8B8B;
+                    margin: 0;
+                    padding: 14px;
+                    height: 48px;
+                    span{
+                        font-size: 16px;
+                        color: #333333;
+                        margin: 0px 0px 0px 30px;
+                        img{
+                            margin-left: 90px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .referal_boxes{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+                padding: 40px 0px 16px;
+                .colored_box{
+                    background-color:#FAFAFA !important;
+                    height: 194px !important;
+                    .pension_id{
+                        height: 48px;
+                        top: 15px;
+                        background: #FFFFFF;
+                        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+                        border-radius: 8px;
+                        position: relative;
+                        display: grid;
+                        grid-template-columns: 8fr 1fr;
+                        // align-items: center;
+                        text-align: center;
+                        letter-spacing: 0.02em;
+                        color: #333333;
+                        padding: 15px 0px;
+                        p{
+                            padding: 10px auto;
+                            text-align: center;
+                            border: none;
+                            background-color: inherit;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 132.02%;
+                        }
+                        img{
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .boxes,
+                .colored_box{
+                    width: 262px;
+                    height: 210px;
+                    left: 446px;
+                    top: 332px;
+                    background: #FFFFFF;
+                    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+                    border-radius: 8px;
+                    padding: 40px 24px 0px 24px;
+                    .title{
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #8B8B8B;
+                        text-transform: uppercase;
+                        margin: 0 0 40px 0px;
+                    }
+                    svg{
+                        margin: 8px 0px;
+                    }
+                    h6{
+                        font-weight: 600;
+                        font-size: 12px;
+                        line-height: 132.02%;
+                        text-align: center;
+                        color: #8B8B8B;
+                        margin: 19px 0px;
+                    }
+                    .boxes_refer{
+                        font-size: 14px;
+                        line-height: 132.02%;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .search_referal{
+            form{
+                .form-group{
+                    .input_search,
+                    .filter_search{
+                        input{
+                            width: 357px;
+                            height: 48px;
+                            background: #F7F7F7;
+                            border-radius: 6px;
+                            font-size: 14px;
+                            outline: none;
+                            box-shadow: none;
+                            border: none;
+                            &::placeholder{
+                                line-height: 131.27%;
+                                color: rgba(77, 77, 77, 0.5);
+                            }
+                            &:focus{
+                                border:none;
+                            }
+                        }
+                        span{
+                            margin:12px 0px 15px 15px;
+                        }
+                    }
+
+                    .filter_search{
+                        width: 82px;
+                        height: 48px;
+                        background: #F7F7F7;
+                        border-radius: 6px;
+                        select{
+                            border:0;
+                            background-color: inherit;
+                            font-size: 12px;
+                            line-height: 131.27%;
+                            color: #4D4D4D;
+                            margin: 0px 4px;
+                            outline: none;
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .referal_table{
+            background: #FFFFFF;
+            border: 1px solid #EDEFF2;
+            box-sizing: border-box;
+            border-radius: 8px;
+            table{
+                th{
+                    text-align: center;
+                    font-size: 12px;
+                    font-weight: normal;
+                    line-height: 16px;
+                    letter-spacing: 0.05em;
+                    text-transform: uppercase;
+                    color: #4D4D4D;
+                    border-top: 0!important;
+                    border-bottom: 1px solid #F7F7F7!important;
+                }
+                tr{
+                    text-align: center;
+                    border-top: 0!important;
+                    border-bottom: 0!important;
+                    td{
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #333333;
+                        padding: 20px;
+                        border-top: 0!important;
+                        border-bottom: 0!important;
+                        vertical-align: middle;
+                        .status1,
+                        .status2{
+                            width: 100px;
+                            margin: auto;
+                            padding: 10px 16px 10px 16px;
+                            height: 35%;
+                            font-weight: normal;
+                            font-size: 12px;
+                            line-height: 16px;
+                            text-align: center;
+                            color: #F9971E;
+                            background: #FEF3E4;
+                            border-radius: 32px;
+                        }
+                        .status2{
+                            color:#0172CB;
+                            background: #E1EEF9;
+                        }
+                        .pen{
+                            font-family: Lato !important;
+                        }
+                        
+                    }
+                    &:nth-child(odd){
+                        background-color: white;
+                    }
+                    &:nth-child(even) {
+                        background-color: #F7F7F7;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.referal_faq{
+    a{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 132.02%;
+        color: #333333;
+        cursor: pointer;
+        text-decoration: none;
+        &:hover{
+            color: inherit;
+        }
+    }
+}
+
+
+.modal-content{
+    width: 455px;
+    height: 477px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 40px;
+    .modal-header{
+        border-bottom: 0 !important;
+        .modal-title{
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 132.02%;
+            letter-spacing: -0.005em;
+            color: #333333;
+        }
+        .close{
+            padding: 0.8rem;
+            box-shadow:none !important;
+            outline: none !important;
+        }
+    }
+    
+    form{
+        .form-group{
+            margin: 24px 0px;
+            label{
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 18px;
+                color: #262626;
+                margin: 4px 0px;
+            }
+            input{
+                background: #F7F7F7;
+                border-radius: 6px;
+                margin: 4px 0px;
+                border: 0;
+                outline: none;
+                box-shadow: none;
+            }
+        }
+        button{
+            margin: 40px 0px;
+        }
+        
+    }
+}
+
+.faq_body{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    color: #4D4D4D;
+    p{
+        text-align: justify;
+    }
+}
+
+
+
+
