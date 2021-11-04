@@ -1,0 +1,74 @@
+.colored_box{
+    background-color:#FAFAFA !important;
+    height: 194px !important;
+    .pension_id{
+        height: 48px;
+        top: 15px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 8fr 1fr;
+        // align-items: center;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #333333;
+        padding: 15px 0px;
+        p{
+            padding: 10px auto;
+            text-align: center;
+            border: none;
+            background-color: inherit;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 132.02%;
+        }
+        img{
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+    .colored_box{
+        background-color: transparent !important;
+        box-shadow: none !important;
+        position: absolute;
+        left: 0 !important;
+        top: 9% !important;
+        padding: 0px 24px 0px 24px !important;
+        h6{
+            text-align: left !important;
+        }
+        .colored_box_div{
+            background: #FAFAFA;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+            border-radius: 8px;
+            padding: 18px 19px 0px;
+            p{
+                margin-bottom: 0;
+            }
+            // .pension_id{
+            //     width: 301px;
+            //     left: -11%;
+            // }
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    .tab-content>.active {
+        display:block;
+    }
+    
+    .fade .show{
+        opacity: 1;
+    }
+
+    .show_lg{
+        display:block !important;
+        opacity: 1 !important;
+    }
+}
+
